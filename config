@@ -1,0 +1,28 @@
+[user]
+  name = Marcos Acosta
+  email = marcos@acosta.tv
+[core]
+  excludesfile = ~/.gitignore
+  quotepath = false
+[color]
+  diff = auto
+  ui = true
+[gui]
+  fontdiff = -family Menlo -size 13 -underline 0 -overstrike 0
+[branch]
+  autosetuprebase = always
+[push]
+  default = current
+[alias]
+  # lg = log --graph --pretty=format:'%C(yellow)%h%Creset %Cgreen(%cr)%Creset %Cblue<%an>%Creset %s %Cred%d%Creset'
+  lg = log -n 10 --pretty=format:'%C(yellow)%H%C(reset) %Cgreen%cr%Creset %C(blue)%an%C(reset) %s'
+  # lga = log --graph --all --pretty=format:'%C(yellow)%h%Creset %Cgreen(%cr)%Creset %Cblue<%an>%Creset %s %Cred%d%Creset'
+  lga = log --pretty=format:'%C(yellow)%H%C(reset) %Cgreen%cr%Creset %C(blue)%an%C(reset) %s'
+[merge]
+  tool = vimdiff
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[mergetool]
+  prompt = false
