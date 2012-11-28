@@ -18,6 +18,7 @@
   lg = log -n 10 --pretty=format:'%C(yellow)%H%C(reset) %Cgreen%cr%Creset %C(blue)%an%C(reset) %s'
   # lga = log --graph --all --pretty=format:'%C(yellow)%h%Creset %Cgreen(%cr)%Creset %Cblue<%an>%Creset %s %Cred%d%Creset'
   lga = log --pretty=format:'%C(yellow)%H%C(reset) %Cgreen%cr%Creset %C(blue)%an%C(reset) %s'
+  ksreview = "!f() { local SHA=${1:-HEAD}; local BRANCH=${2:-master}; if [ $SHA == $BRANCH ]; then SHA=HEAD; fi; git difftool -y -t Kaleidoscope $BRANCH...$SHA; }; f"
 [merge]
   tool = Kaleidoscope
 [diff]
