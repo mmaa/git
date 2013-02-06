@@ -13,3 +13,5 @@ xcuserdata/
 *~.nib
 build/
 .tm_properties
+tmtags
+tmtagsHistory
