@@ -6,7 +6,6 @@
   quotepath = false
   editor = vim
 [color]
-  diff = auto
   ui = true
 [gui]
   fontdiff = -family Menlo -size 13 -underline 0 -overstrike 0
