@@ -6,7 +6,6 @@
 *.swn
 .netrwhist
 .rbenv-version
-bin/
 .rbx/
 tags
 xcuserdata/
